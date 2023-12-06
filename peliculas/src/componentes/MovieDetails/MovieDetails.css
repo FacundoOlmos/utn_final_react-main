@@ -1,0 +1,23 @@
+/* MovieDetails.css */
+
+.container-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container-details h2 {
+    color: antiquewhite;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .container-details p {
+    color: antiquewhite;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  /* Agrega más estilos según tus necesidades */
+  

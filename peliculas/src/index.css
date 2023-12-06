@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(8, 8, 8);
+  color: antiquewhite;
+  background: linear-gradient(
+    to right,
+    #070707,
+    rgb(95, 95, 95)
+  ); 
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.lista {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: brown;
+  border-radius: 10px;
+}
+
+h2,
+h1 {
+  text-align: center;
+  padding: 10px 25px 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+li {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+img {
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+li:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+button {
+  background-color: brown;
+  color: antiquewhite;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(75, 19, 19);
+}
+
+.contenedor-icono-texto {
+  display: flex;
+  align-items: center;
+}
+
+.icono-corazon {
+  margin-left: 5px;
+  padding: 2px;
+}
+
+.icono-corazon-vacio {
+  margin-left: 5px;
+  padding: 2px;
+}
+.lista-icono {
+  display: flex;
+}
+.icono-lista {
+  margin-right: 5px; 
+  padding: 2px;
+}
