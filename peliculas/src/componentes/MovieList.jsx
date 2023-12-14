@@ -78,7 +78,7 @@ const MovieList = () => {
       <ul>
         {movies.map((movie) => (
           <li key={movie.id}>
-            <Link to={`/movie/${movie.id}`}>
+            <Link to={`/movie/${movie.id}`} className="movie-links">
               <img
                 src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
                 alt={movie.title}

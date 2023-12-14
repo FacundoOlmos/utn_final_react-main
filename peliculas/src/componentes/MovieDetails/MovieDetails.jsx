@@ -28,6 +28,10 @@ const MovieDetails = () => {
     fetchMovieDetails();
   }, [id]);
 
+  // MovieDetails.jsx
+
+  // ... (código anterior)
+
   return (
     <div className="container-details">
       {loading && <p>Cargando...</p>}
@@ -35,12 +39,13 @@ const MovieDetails = () => {
       {Object.keys(movieDetails).length !== 0 && (
         <>
           <h2>{movieDetails.title}</h2>
-          <img
-            src={`https://image.tmdb.org/t/p/w300${movieDetails.poster_path}`}
-            alt={movieDetails.title}
-          />
-
-          <p>{movieDetails.overview}</p>
+          <div className="details-content">
+            <img
+              src={`https://image.tmdb.org/t/p/w300${movieDetails.poster_path}`}
+              alt={movieDetails.title}
+            />
+            <p>{movieDetails.overview}</p>
+          </div>
           <p>
             Fecha de Lanzamiento:{" "}
             {new Date(movieDetails.release_date).toLocaleDateString()}
