@@ -1,4 +1,3 @@
-/* MovieDetails.css */
 
 .container-details {
   max-width: 800px;
@@ -6,14 +5,14 @@
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   display: flex;
-  flex-direction: column; /* Aplicamos flex-direction: column para apilar los elementos verticalmente */
+  flex-direction: column; 
   align-items: center;
 }
 
 .container-details .details-content {
   display: flex;
-  align-items: center; /* Centramos la imagen y el texto horizontalmente */
-  margin-top: 20px; /* Agregamos margen superior para separar el título */
+  align-items: center; 
+  margin-top: 20px; 
 }
 
 .container-details img {
@@ -31,6 +30,6 @@
   max-width: 400px;
 }
 
-/* Agrega más estilos según tus necesidades */
+
 
   

@@ -9,7 +9,6 @@ const MovieList = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [favorites, setFavorites] = useState([]);
 
-  // Para que al inicio pueda ver las mas vistas
 
   useEffect(() => {
     const fetchPopularMovies = async () => {
@@ -40,7 +39,6 @@ const MovieList = () => {
       }
     };
 
-    // Para buiscar las pelis
 
     if (searchQuery.trim() !== "") {
       fetchMovies();
